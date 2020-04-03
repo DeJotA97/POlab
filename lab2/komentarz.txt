@@ -1,0 +1,9 @@
+Najpierw utworzyłem osobne klasy dla każdego rodzaju rzeczy do wypożyczenia, tj. książka, płyta, film itp
+
+Następnie Każdej klasie przypisałem obiekt ( konkretna książka, płyta itp ) oraz obiektom przypisałem "cechy" takie jka tytuł, autor itp.
+
+Stosując scanner i fukncje warunkową if utworzyłem prosty system wypożyczania, z możliwością przeglądania oraz wyboru działu, następie w każdej klasie zadeklarowałem metode wypisującą cechy obiektu, metoda ta aktywuje sie po wyborze danej klasy, aby wypisać wszystkie obiekty i ich cechy.
+
+Dalej stworzyłem sposób wyboru obiektu który chcemy wypożyczyć, wybierając go po przypisanym do niego numerze. Po wyborze wyświetla się informacja o czasie na jaki został on wypożyczony oraz o karze za przekroczenie tego czasu.
+
+Są to 2 pierwsze podpunkty zadania. Niestety nie wiem jak wykonać 3 jego podpunkt, myśle że należy to wykonać za pomocą tablicy ale nie potrafie tego zaaplikować do programu.
