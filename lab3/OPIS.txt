@@ -1,0 +1,8 @@
+1. Utworzone zostały klasy SortowanieBabelkowe i SortowanieKubelkowe, korzystające z interfejsu Sortable
+2. Utworzona została klasa Sortowanie w której m. innymi jest wybór opcji: 1. bąbelkowe, 2. kubełkowe. Jeżeli wybrana zostanie inna liczba, lub znak pokaże się komunikat "Nieprawidłowy wybór"
+3.Utworzona została tablica na 200 losowych liczb
+4.Metoda bąbelkowa porównuje elementy tablicy i jeżeli jeden jest większy od drugiego, zamienia je miejscami
+5.Metoda kubełkowa tworzy tzw. kubełki, w których umieszczane są liczby z tablicy. Metoda sortuje je w każdym kubełku po czym łączy kubełki w jeden, z już posortowanymi liczbami.
+6.Zliczanie kroków zaimplementowane zostało poprzez stworzenie zmiennej step, która przy każdej operacji porównania była zwiększana o 1
+
+Dla opcji sortowania bąbelkowego wychodzi ok. 10000 porównań, a dla kubełkowego 200.0
