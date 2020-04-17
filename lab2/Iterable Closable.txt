@@ -1,0 +1,12 @@
+Iterable:
+Interfejs iterable zawiera iterator, który umożliwia ziterowanie zbioru obiektów i odnosi sie do każdego zbioru obiektów w których zaimplementowany został interfejs iterable.
+
+Metoda hasNext - Jeżeli w zbioże jest następny obiekt który można ziterować, zwraca zmienną boolean true i taką samą zmienną tylko z wartością false jeżeli nie ma więcej obiektów do ziterowania.
+
+Metoda next - Umożliwia przeniesienie się na inny obiekt.
+
+Closeable:
+Zawiera metodę void close
+void close - zamyka strumień i uwalnia zasoby systemowe z nim związane. jeśli strumien został juz wcześniej zamknięty, wywołanie tej metody nic nie zrobi
+
+wyjątek IOException - występuje gdy operacja wejścia/wyjscia się nie powiedzie lub nie zadziała z jakiegoś innego powodu
