@@ -1,0 +1,51 @@
+Stworzono testy jednstkowe do każdej klasy:
+
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci prawdę, jeśli jedna z dwóch temperatur jest większa niż 100 
+
+Test sprawdza 9 przypadków:
+1) Czy zwróci prawdę, gdy obie liczby są większe od 100 
+2) Czy zwróci prawdę, gdy pierwsza liczba jest większa a druga liczba mniejsza od 100 
+3) Czy zwróci prawdę, gdy pierwsza liczba jest mniejsza a druga większa od 100
+4) Czy zwróci nieprawdę, gdy obie liczby są mniejsze od 100
+5) Czy zwróci nieprawdę, gdy obie liczby są równe 100
+6) Czy zwróci nieprawdę, gdy pierwsza liczba jest równa 100, a druga mniejsza od 100
+7) Czy zwróci prawdę, gdy pierwsza liczba jest równa 100, a druga jest większa od 100
+8) Czy zwróci nieprawdę, gdy pierwsza liczba jest mniejsza od 100, a druga równa 100
+9) Czy zwróci prawdę, gdy pierwsza liczba jest większa od 100, a druga równa 100
+
+Program przeszedł testy
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci prawdę, jeśli sekwencja liczb 1, 2, 3 pojawi się gdzieś  tablicy liczb całkowitych
+ 
+Test sprawdza sześć przypadków: 
+1)Czy zwróci prawdę, gdy sekwencja pojawi się na początku tablicy
+2)Czy zwróci prawdę, gdy sekwencja pojawi się w środku tablicy
+3)Czy zwróci prawdę, gdy sekwencja pojawi się na końcu tablicy
+4)Czy zwróci nieprawdę, gdy w tablicy pojawi się część sekwencji
+5)Czy zwróci nieprawdę, gdy tablica jest pusta
+6)Czy zwróci nieprawdę, gdy w tablicy nie ma sekwencji
+
+Program przeszedł testy
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci połowę ciągu znaków ze Stringa 
+Test sprawdza trzy przypadki: 
+1) Czy wynik programu jest taki sam jak połowa ciągu znaków
+2) Czy wynik programu nie jest taki sam jak mniej niż połowa ciągu znaków
+3) Czy wynik programu nie jest taki sam jak więcej niż połowa ciągu znaków
+
+Program przeszedł testy
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci nową tablicę  z elementami w odwrotnej kolejności
+
+Test sprawdza cztery przypadki:
+1)Czy wynik programu jest taki sam jak odwrócona tablica
+2)Czy wynik programu nie jest taki sam jak część odwroconej tablicy
+3)Czy wynik programu nie jest taki sam jak zupełnie inna tablica
+4)Czy wynik programu nie jest taki sam jak tablca przed odwróceniem
+
+Program przeszedł testy

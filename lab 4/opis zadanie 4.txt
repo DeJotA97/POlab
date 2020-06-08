@@ -1,0 +1,8 @@
+Zarówno zadanie 2, jak i 3 zostało zaimplementowane w jednej klasie. 
+W przypadku zadania 2 wykorzystano formę try w celu konwersji przy użyciu Integer.parseInt(),
+w przypadku wyłapania błędu NumberFormatException przy wykorzystaniu catch wyswietlana jest informacja, że użytkownik nie podał liczby. 
+
+Dla zadania 3, stworzono tablicę 25-elementową, wypełnioną liczbami równymi numerze indeksu pomnożonego przez liczbę 25.
+Następnie przy pomocy catch wyłapywany jest wyjątek : niepoprawną konwersje podanego przez uzytkownika elementu tablicy 
+bądź numeru indeksu który nie występuje w tablicy. W sytuacji wyłapania błędu wyświetlana jest informacja, ze nie ma podanego indeksu w tablicy. 
+Następnie uzytkownik jest informowany o zakońćzeniu działania programu.
