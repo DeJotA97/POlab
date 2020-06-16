@@ -1,0 +1,66 @@
+JSON jest tekstowy format wymiany danych bazującym na podzbiorze JavaScript, który pozwala na zapis i odczyt danych.
+Wyróżnia sięw nim dwie struktury:
+-nazwa/wartość - pozwana ona na przypisanie wartości do nazwy.
+-Uporządkowana lista wartości 
+JSON może być wykorzystywany w wielu językach programowania w nieco zmienionej formie.
+
+Opis zadań
+
+Zadanie1
+
+Zmieniona została nazwa endpointa z greeting na bye - @RequestMapping ("/bye")
+
+Zadanie 2
+
+Dodany został nowy endpoint - @RequestMapping ("/byenowy")
+
+Zadanie 3
+
+Zmieniony zosrał zwracany parametr w JSON tak aby zwracał on kilka informacji
+
+ return new Greeting(counter.incrementAndGet(), String.format(template, wiek, id, imie, plec));"
+
+Zadanie 4
+
+Dodane zostały parametry wiek, imię i ID
+
+public Greeting greeting(@RequestParam(value = "wiek", defaultValue = "10") String
+wiek,
+@RequestParam(value = "id", defaultValue = "1234") String id,
+@RequestParam(value = "imie", defaultValue = "Wiktoria") String imie, String plec)
+
+Zadanie 5
+
+Na podstawie tego że imiona kobiet zazwyczaj kończą się na literę a, utworzona została formuła która sprawdza podane imię i na podstawie tego określa płeć
+
+if(imie.endsWith("a"))
+        {
+            plec = "Kobieta";
+        }
+        else
+        {
+            plec = "Mezczyzna";
+        }
+
+return new Greeting(counter.incrementAndGet(), String.format(template, wiek, id, imie, plec));"
+
+Zadanie 6
+
+W tym zadania użyty został drugi endpoint, zadeklarowane zostały dwa stringi sprawdzające imię. Następnie sprawdzane jest czy wpisane imię odpowiada temu zadeklarowanemu "Konrad", jeżeli tak to zmienna wzor zostaje przypisana do do wartosci "jest we wzorze", po czym zwracana zostaje informacja o tym czy imie jest we wzorze czy nie.
+
+private final AtomicLong counternowy = new AtomicLong();
+    @RequestMapping("/byenowy") // odpowiada endpoint’om http
+    public String greetingnowy(@RequestParam(value = "sprawdzam_wzor", defaultValue = "Konrad") String
+                                         imie, String wzor)
+    {
+        if(imie == "Konrad")
+        {
+            wzor = "zawiera sie we wzorze";
+        }
+        else
+        {
+            wzor = "nie zawiera sie we wzorze";
+        }
+        return "Podane imie " +wzor;
+    }
+   
